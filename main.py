@@ -8,6 +8,7 @@ st.set_page_config(page_title="게임 장르 추천", layout="wide")
 # --- 데이터 로드 ---
 @st.cache_data
 def load_data():
+    # 이미지 없는 CSV 파일을 사용합니다.
     df = pd.read_csv('games.csv')
     return df
 
@@ -67,15 +68,9 @@ def question_page(q_num):
     st.subheader(f"Question {q_num}/{len(questions)}")
     st.header(question)
     
-    # 버튼 스타일링
     st.markdown("""
-    <style>
-    div.stButton > button {
-        height: 50px;
-        width: 100%;
-        margin: 5px 0;
-    }
-    </style>""", unsafe_allow_html=True)
+    <style>div.stButton > button { height: 50px; width: 100%; margin: 5px 0; }</style>
+    """, unsafe_allow_html=True)
 
     cols = st.columns(2)
     for i, (option, trait) in enumerate(options.items()):
@@ -89,11 +84,9 @@ def question_page(q_num):
             st.rerun()
 
 def result_page():
-    # 1. 성향 점수 계산
     for trait in st.session_state.answers.values():
         st.session_state.traits[trait] += 1
     
-    # 2. 최고 성향 및 장르 결정
     if not st.session_state.traits:
         st.warning("분석 결과가 없습니다. 테스트를 다시 시작해주세요.")
         if st.button("처음으로 돌아가기"):
@@ -108,12 +101,10 @@ def result_page():
     st.write(description)
     st.success(f"### 🎯 추천 핵심 장르: **{recommended_genre}**")
 
-    # 3. 성향 분석 그래프 (데이터 시각화)
     st.subheader("📊 당신의 게임 성향 프로필")
     traits_df = pd.DataFrame(list(st.session_state.traits.items()), columns=['성향', '점수']).set_index('성향')
     st.bar_chart(traits_df)
 
-    # 4. 일관성 있는 게임 추천 (이미지 포함)
     st.subheader("🎮 추천 게임 목록")
     
     def get_relevance_score(genres_str):
@@ -129,12 +120,10 @@ def result_page():
         st.info('아쉽지만 현재 데이터에 추천할 만한 게임이 없네요.')
     else:
         for _, row in recommended_games.iterrows():
-            col1, col2 = st.columns([1, 3])
-            with col1:
-                st.image(row['imageUrl'], use_column_width=True)
-            with col2:
-                st.markdown(f"#### {row['title']}")
-                st.markdown(f"**장르**: {row['genres'].replace(';', ', ')}")
+            # 이미지 관련 코드 제거, 텍스트만 출력
+            st.markdown(f"#### {row['title']}")
+            st.markdown(f"**장르**: {row['genres'].replace(';', ', ')}")
+            st.divider()
 
     if st.button("테스트 다시하기"):
         reset()
