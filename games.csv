@@ -1,25 +1,45 @@
-gameId,title,genres
-1,The Witcher 3: Wild Hunt,"RPG;Story Rich;Action;Adventure"
-2,Cyberpunk 2077,"RPG;Action;Sci-Fi;Story Rich"
-3,Red Dead Redemption 2,"Action;Adventure;Story Rich;Western"
-4,Grand Theft Auto V,"Action;Adventure;Crime;Open World"
-5,The Legend of Zelda: Breath of the Wild,"Adventure;Open World;Action;Puzzle"
-6,Overwatch 2,"Shooter;Action;Team-based;Multiplayer"
-7,League of Legends,"MOBA;Strategy;Multiplayer;Team-based"
-8,Stardew Valley,"Simulation;Farming;Life Sim;RPG"
-9,Animal Crossing: New Horizons,"Simulation;Life Sim;Building;Relaxing"
-10,Minecraft,"Sandbox;Survival;Building;Adventure"
-11,Among Us,"Social Deduction;Party;Multiplayer"
-12,Valorant,"Shooter;Tactical;Action;Multiplayer"
-13,Fortnite,"Shooter;Battle Royale;Building;Multiplayer"
-14,Elden Ring,"RPG;Action;Dark Fantasy;Difficult"
-15,Hades,"Roguelike;Action;Indie;Mythology"
-16,Celeste,"Platformer;Indie;Story Rich;Difficult"
-17,Hollow Knight,"Metroidvania;Action;Adventure;Indie"
-18,Disco Elysium,"RPG;Story Rich;Detective;Text-based"
-19,Portal 2,"Puzzle;Platformer;First-Person;Sci-Fi"
-20,Sid Meier's Civilization VI,"Strategy;4X;Turn-based;Historical"
-21,The Elder Scrolls V: Skyrim,"RPG;Open World;Adventure;Fantasy"
-22,Mass Effect Legendary Edition,"RPG;Sci-Fi;Story Rich;Shooter"
-23,Bloodborne,"Action;RPG;Dark Fantasy;Difficult"
-24,Dark Souls III,"Action;RPG;Dark Fantasy;Difficult"
+gameId,title,genres,imageUrl
+1,The Witcher 3: Wild Hunt,"RPG;Story Rich;Action;Adventure",https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg
+2,Cyberpunk 2077,"RPG;Action;Sci-Fi;Story Rich",https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg
+3,Red Dead Redemption 2,"Action;Adventure;Story Rich;Western",https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg
+4,Grand Theft Auto V,"Action;Adventure;Crime;Open World",https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg
+5,The Legend of Zelda: Breath of the Wild,"Adventure;Open World;Action;Puzzle",https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5685380879b1863459b628234e
+6,Overwatch 2,"Shooter;Action;Team-based;Multiplayer",https://cdn.akamai.steamstatic.com/steam/apps/2357570/header.jpg
+7,League of Legends,"MOBA;Strategy;Multiplayer;Team-based",https://www.leagueoflegends.com/static/open-graph-b586223267dc5b546aad1da80552b31a.jpg
+8,Stardew Valley,"Simulation;Farming;Life Sim;RPG",https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg
+9,Animal Crossing: New Horizons,"Simulation;Life Sim;Building;Relaxing",https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/7001000001249/sc-0-4de219a15d045d9453a238b1c4228424
+10,Minecraft,"Sandbox;Survival;Building;Adventure",https://cdn.akamai.steamstatic.com/steam/apps/2607300/header.jpg
+11,Among Us,"Social Deduction;Party;Multiplayer",https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg
+12,Valorant,"Shooter;Tactical;Action;Multiplayer",https://cdn-1.webcatalog.io/catalog/valorant/valorant-icon-filled-2048x2048.png?v=1723531644026
+13,Fortnite,"Shooter;Battle Royale;Building;Multiplayer",https://cdn2.unrealengine.com/social-image-chapter4-s3-3840x2160-d55545731338.jpg
+14,Elden Ring,"RPG;Action;Dark Fantasy;Difficult",https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg
+15,Hades,"Roguelike;Action;Indie;Mythology",https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg
+16,Celeste,"Platformer;Indie;Story Rich;Difficult",https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg
+17,Hollow Knight,"Metroidvania;Action;Adventure;Indie",https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg
+18,Disco Elysium,"RPG;Story Rich;Detective;Text-based",https://cdn.akamai.steamstatic.com/steam/apps/632470/header.jpg
+19,Portal 2,"Puzzle;Platformer;First-Person;Sci-Fi",https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg
+20,Sid Meier's Civilization VI,"Strategy;4X;Turn-based;Historical",https://cdn.akamai.steamstatic.com/steam/apps/289070/header.jpg
+21,The Elder Scrolls V: Skyrim,"RPG;Open World;Adventure;Fantasy",https://cdn.akamai.steamstatic.com/steam/apps/489830/header.jpg
+22,Mass Effect Legendary Edition,"RPG;Sci-Fi;Story Rich;Shooter",https://cdn.akamai.steamstatic.com/steam/apps/1328670/header.jpg
+23,Bloodborne,"Action;RPG;Dark Fantasy;Difficult",https://image.api.playstation.com/vulcan/img/rnd/202010/2614/itbSMj5ESpCIcUmQfJ9v22hP.png
+24,Dark Souls III,"Action;RPG;Dark Fantasy;Difficult",https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg
+25,Persona 5 Royal,"RPG;JRPG;Story Rich;Turn-based",https://cdn.akamai.steamstatic.com/steam/apps/1687950/header.jpg
+26,Super Mario Odyssey,"Platformer;Adventure;Family Friendly",https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000001130/c42553b4fd03a2c91e79df4312a33a1059b84f475f85f5e5a28723595a329971
+27,God of War (2018),"Action;Adventure;Story Rich;Mythology",https://image.api.playstation.com/vulcan/img/rnd/202010/2217/ax0V52651z2fA2Kz8Lgq4Gf5.png
+28,Baldur's Gate 3,"RPG;CRPG;Strategy;Story Rich",https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg
+29,XCOM 2,"Strategy;Turn-based;Tactical;Sci-Fi",https://cdn.akamai.steamstatic.com/steam/apps/268500/header.jpg
+30,Factorio,"Simulation;Building;Automation;Strategy",https://cdn.akamai.steamstatic.com/steam/apps/427520/header.jpg
+31,Terraria,"Sandbox;Adventure;Building;Survival",https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg
+32,It Takes Two,"Co-op;Adventure;Platformer;Puzzle",https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg
+33,Slay the Spire,"Roguelike;Deckbuilder;Card Game;Strategy",https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg
+34,RimWorld,"Simulation;Colony Sim;Survival;Strategy",https://cdn.akamai.steamstatic.com/steam/apps/294100/header.jpg
+35,The Sims 4,"Simulation;Life Sim;Building;Sandbox",https://cdn.akamai.steamstatic.com/steam/apps/1222670/header.jpg
+36,Dead by Daylight,"Horror;Survival;Multiplayer;Asymmetrical",https://cdn.akamai.steamstatic.com/steam/apps/381210/header.jpg
+37,Phasmophobia,"Horror;Co-op;Detective;Supernatural",https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg
+38,Genshin Impact,"Action;RPG;Gacha;Open World",https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_promotional_image.jpg/220px-Genshin_Impact_promotional_image.jpg
+39,Final Fantasy XIV Online,"MMORPG;RPG;Multiplayer;Story Rich",https://cdn.akamai.steamstatic.com/steam/apps/39210/header.jpg
+40,Street Fighter 6,"Fighting;Action;Multiplayer;Competitive",https://cdn.akamai.steamstatic.com/steam/apps/1364780/header.jpg
+41,SANABI,"Action;Platformer;Indie;Story Rich",https://cdn.akamai.steamstatic.com/steam/apps/1562700/header.jpg
+42,Limbus Company,"RPG;Turn-based;Gacha;Story Rich",https://cdn.akamai.steamstatic.com/steam/apps/1973530/header.jpg
+43,Library Of Ruina,"Strategy;Deckbuilder;Turn-based;Story Rich",https://cdn.akamai.steamstatic.com/steam/apps/1256670/header.jpg
+44,Lobotomy Corporation,"Simulation;Strategy;Horror;Management",https://cdn.akamai.steamstatic.com/steam/apps/568220/header.jpg
